@@ -19,4 +19,4 @@ jobs:
             cd ~/app/frontend
             git pull origin main
             cd ~/app
-            docker-compose up --build -d
+            sudo docker-compose up --build -d
